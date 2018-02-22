@@ -53,11 +53,12 @@ namespace IsItPwned.Tests
             #if !NETCOREAPP2_0
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12 | SecurityProtocolType.Ssl3;
             #endif
-            var client = new PwnedPasswordClient(httpClient);
+            using (var client = new PwnedPasswordClient(httpClient))
+            {
+                var result = await client.IsPwnedAsync(password);
 
-            var result = await client.IsPwnedAsync(password);
-
-            Assert.True(outcomePredicate(result));
+                Assert.True(outcomePredicate(result));
+            }
         }
 
         [Theory]

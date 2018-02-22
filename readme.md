@@ -14,6 +14,8 @@ The exact documentation for the API is also available on the [Have I Been Pwned]
 
 ## Install via NuGet
 
+[![NuGet](https://img.shields.io/nuget/dt/IsItPwned.svg)]()
+
 ```
 Install-Package IsItPwned
 ```
