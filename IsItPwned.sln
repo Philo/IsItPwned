@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsItPwned", "src\IsItPwned.csproj", "{C2C0EE08-4C8B-486C-AE20-55B83761813B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4AB2908D-CC5C-4CF5-9B88-478B80CB6B28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsItPwned.Tests", "tests\IsItPwned.Tests.csproj", "{FB4051E4-8B14-4860-8DED-6255336A0623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D611EBCD-AA00-4022-BBFF-6C76776A388A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|x64.Build.0 = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Debug|x86.Build.0 = Debug|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|x64.ActiveCfg = Release|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|x64.Build.0 = Release|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B}.Release|x86.Build.0 = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|x64.Build.0 = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|x64.ActiveCfg = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|x64.Build.0 = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB4051E4-8B14-4860-8DED-6255336A0623}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C0EE08-4C8B-486C-AE20-55B83761813B} = {D611EBCD-AA00-4022-BBFF-6C76776A388A}
+		{FB4051E4-8B14-4860-8DED-6255336A0623} = {4AB2908D-CC5C-4CF5-9B88-478B80CB6B28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3BB53C2-A436-459A-980C-F6D51B7A58C4}
+	EndGlobalSection
+EndGlobal

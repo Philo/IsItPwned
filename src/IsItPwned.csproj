@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net461</TargetFrameworks>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
+
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>Provides a simple interface to the I Have Been Pwned V2 breached password endpoint using the enhanced anonymity provided by the k-Anonymity method (/range endpoint).  See Troy Hunt's blog for more details (https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/)</Description>
+    <IsPackable>true</IsPackable>
+    <Authors>Phil Oyston</Authors>
+    <PackageId>IsItPwned</PackageId>
+    <PackageTags>password hibp</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes />
+  </PropertyGroup>
+   
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+   
+  <ItemGroup>
+    <Compile Include="..\VersionAssemblyInfo.cs" Link="VersionAssemblyInfo.cs" />
+  </ItemGroup>
+
+</Project>
